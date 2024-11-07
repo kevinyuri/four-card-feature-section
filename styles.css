@@ -63,7 +63,7 @@ h3 {
 
 .container {
   flex-direction: row;
-  max-width: 80em;
+  max-width: 30em;
   margin: 0 auto;
 }
 
@@ -73,7 +73,11 @@ h3 {
   align-self: center;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 70em) {
+  .container {
+    max-width: 80em;
+  }
+
   .container > * {
     flex-basis: 30%;
     min-width: 20em;
